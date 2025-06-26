@@ -31,5 +31,12 @@ temperatura = 5
 nombre = "Juan"
 mensaje = "Y que pasa realmente"
 
-#None
+#None ausencia del valor
 
+resultado = None
+print("id de variable resultado:", id(resultado))
+#id() devuelve un  identificador unico para un objeto, que representa su direción en memoria.
+suma = 1+1
+resultado = suma
+print("id de variable resultado al modificar:", id(resultado))
+print(resultado)
