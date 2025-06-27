@@ -23,3 +23,4 @@ velocidad = 6.3 # MB/s
 tiempo = 60 #segundos
 mb_descargados = math.floor(velocidad * tiempo)
 print (f"descargaste {mb_descargados} MB en {tiempo} segundos ({velocidad*tiempo}).")
+
