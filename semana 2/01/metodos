@@ -1,0 +1,25 @@
+numeros = [1, 2, "tres"]
+
+#añadir al final
+numeros.append(4) 
+print(numeros)
+
+#extend, varios elementos. Pueden ser numeros, listas, diccionarios, booleanos, etc.
+numeros.extend([5, 6])
+print(numeros)
+
+#insert, agregar un 0
+
+numeros.insert(0, 0)
+print(numeros)
+
+#eliminar un valor. Remove
+
+numeros.remove("tres")
+print(numeros)
+
+#eliminar por indice y obtener el valor.
+ultimo_elemento = numeros.pop() #permite recuperar
+print(numeros)
+penultimo_elemento = numeros.pop(-2)
+
