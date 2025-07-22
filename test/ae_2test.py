@@ -1,3 +1,4 @@
-nombre = "Marcelo"
-edad = 29
-print(f"Mi nombre es {nombre} y tengo {edad} años")
+while True:
+    entrada = input("Escribe 'salir' para terminar: ")
+    if entrada.lower() == "salir":
+        break
