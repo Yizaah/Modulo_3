@@ -41,20 +41,3 @@ multiplo = 2
 for i in range(numInicial, numFinal + 1):
     if i % multiplo == 0:
         print(i)
-
-print("Ejercicio 6")
-numInicial = 3
-numFinal = 100
-multiplo = 2
-for i in range(numInicial, numFinal + 1):
-    if i % multiplo == 0:
-        print(i)
-
-print("Ejercicio 6")
-numInicial = 3
-numFinal = 100
-multiplo = 2
-for i in range(numInicial, numFinal + 1):
-    if i % multiplo == 0:
-        print(i)
-
